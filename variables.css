@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
+@import './theme.css';
+:root{
+
+    --yesil: #22cb22;
+    --white: #ececec;
+    --orange:  rgb(252, 132, 20) ;
+    --blue: blue;
+    --darkblue: rgb(8, 8, 99);
+    --tema-1:#004C50;
+    --tema-2:#00939C;
+    --tema-3:#10ABB4;;
+    --tema-4:#9C3E00;
+    --tema-5:#502000;
+/* FONTS */
+--ff-mexico:"Playwrite MX", cursive;
+--ff-tiny:"Playwrite DE Grund", cursive;
+}
+
+body{
+    background-color: var(--yesil);
+    background-color: var(--white);
+}
+
+h1{
+background-color: var(--orange);
+font-family: var(--ff-mexico);
+}
+
+p{
+background-color: var(--orange);
+font-family: var(--ff-tiny)
+}
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    background-color: var(--blue-light-2);
+}
+.light{
+    background-color: var(--tema-1);
+    width: 150px;
+    height: 150px;
+}
+.dark{
+    background-color: var(--tema-4);
+    width: 150px;
+    height: 150px;
+}
+/* Color Theme Swatches in Hex */
+.MS-Dark-Teal-1-hex { color: #004C50; }
+.MS-Dark-Teal-2-hex { color: #00939C; }
+.MS-Dark-Teal-3-hex { color: #10ABB4; }
+.MS-Dark-Teal-4-hex { color: #9C3E00; }
+.MS-Dark-Teal-5-hex { color: #502000; }
+
+@media screen and (max-width:2500px) {
+ body{
+    background-color: rgb(23, 248, 173);
+ }   
+}
+@media screen and (max-width:1200px) {
+ body{
+    background-color: rgb(0, 162, 255);
+ }   
+}
+@media screen and (max-width:900px) {
+ body{
+    background-color: red;
+ }   
+}
+@media screen and (max-width:360px) {
+ body{
+    background-color: rgb(255, 86, 247);
+ }   
+}
+
